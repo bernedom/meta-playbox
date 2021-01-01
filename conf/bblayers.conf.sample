@@ -11,6 +11,7 @@ BBLAYERS ?= " \
     ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-networking \
     ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-perl \
     ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-python \
+    ${HOME}/image-builder/build/poky-dunfell/meta-virtualization \
     ${HOME}/image-builder/build/poky-dunfell/meta-qt5 \
     ${HOME}/image-builder/build/poky-dunfell/meta-raspberrypi \
     ${HOME}/image-builder/build/poky-dunfell/meta-security \

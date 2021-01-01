@@ -27,6 +27,9 @@ Dependencies
     URI: https://github.com/jumpnow/meta-jumpnow.git
     branch: dunfell
 
+    URI: git://git.yoctoproject.org/meta-virtualization
+    branch: dunfell
+
 Patches
 =======
 
