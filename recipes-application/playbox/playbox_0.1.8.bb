@@ -6,7 +6,7 @@ SRC_URI[md5sum] = "73d6a5d82fd414c1e2750ba10bc0d0e8"
 
 inherit systemd
 
-DEPENDS_${PN} += "\
+DEPENDS += "\
 docker-distribution \
 "
 
