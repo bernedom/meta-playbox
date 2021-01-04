@@ -65,13 +65,13 @@ SDKMACHINE = "x86_64"
 # for no root passwd uncomment the following and comment the two extra user lines
 #EXTRA_IMAGE_FEATURES = "debug-tweaks"
 
-# for a root passwd, change jumpnowtek below to your password
+# for a root passwd, change 'passowrd' below to your password
 INHERIT += "extrausers"
-EXTRA_USERS_PARAMS = "usermod -P jumpnowtek root; "
+EXTRA_USERS_PARAMS = "usermod -P password root; "
 
 # this will force root to change password on first login
-INHERIT += "chageusers"
-CHAGE_USERS_PARAMS = "chage -d0 root; "
+#INHERIT += "chageusers"
+#CHAGE_USERS_PARAMS = "chage -d0 root; "
 
 USER_CLASSES = "image-mklibs image-prelink"
 PATCHRESOLVE = "noop"
