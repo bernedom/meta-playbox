@@ -24,9 +24,6 @@ Dependencies
     URI: git://git.yoctoproject.org/meta-security.git
     branch: dunfell
 
-    URI: https://github.com/jumpnow/meta-jumpnow.git
-    branch: dunfell
-
     URI: git://git.yoctoproject.org/meta-virtualization
     branch: dunfell
 
@@ -39,7 +36,7 @@ Table of Contents
 =================
 
   I. Adding the meta-playbox layer to your build
- II. Misc
+ II. Building
 
 
 I. Adding the meta-playbox layer to your build
@@ -47,8 +44,17 @@ I. Adding the meta-playbox layer to your build
 
 Run 'bitbake-layers add-layer meta-playbox'
 
+II. Building
+============
+
+```bash
+cd <build-dir/poky>
+. oe-build-environment
+bitbake core-image-base
+```
 
 ## Further reading
 
 https://jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html
 
+https://medium.com/@shantanoodesai/run-docker-on-a-raspberry-pi-4-with-yocto-project-551d6b615c0b
