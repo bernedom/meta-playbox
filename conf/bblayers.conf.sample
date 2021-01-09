@@ -4,17 +4,17 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-    ${HOME}/image-builder/build/poky-dunfell/meta \
-    ${HOME}/image-builder/build/poky-dunfell/meta-poky \
-    ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-oe \
-    ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-multimedia \
-    ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-networking \
-    ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-filesystems \
-    ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-perl \
-    ${HOME}/image-builder/build/poky-dunfell/meta-openembedded/meta-python \
-    ${HOME}/image-builder/build/poky-dunfell/meta-qt5 \
-    ${HOME}/image-builder/build/poky-dunfell/meta-raspberrypi \
-    ${HOME}/image-builder/build/poky-dunfell/meta-security \
-    ${HOME}/image-builder/build/poky-dunfell/meta-virtualization \
-    ${HOME}/image-builder/ \
+    ${HOME}/image-builder/poky-dunfell/meta \
+    ${HOME}/image-builder/poky-dunfell/meta-poky \
+    ${HOME}/image-builder/poky-dunfell/meta-openembedded/meta-oe \
+    ${HOME}/image-builder/poky-dunfell/meta-openembedded/meta-multimedia \
+    ${HOME}/image-builder/poky-dunfell/meta-openembedded/meta-networking \
+    ${HOME}/image-builder/poky-dunfell/meta-openembedded/meta-filesystems \
+    ${HOME}/image-builder/poky-dunfell/meta-openembedded/meta-perl \
+    ${HOME}/image-builder/poky-dunfell/meta-openembedded/meta-python \
+    ${HOME}/image-builder/poky-dunfell/meta-qt5 \
+    ${HOME}/image-builder/poky-dunfell/meta-raspberrypi \
+    ${HOME}/image-builder/poky-dunfell/meta-security \
+    ${HOME}/image-builder/poky-dunfell/meta-virtualization \
+    ${HOME}/image-builder/meta-playbox \
 "
